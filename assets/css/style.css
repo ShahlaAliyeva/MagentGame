@@ -1,0 +1,61 @@
+body {
+    background: url(../fridge.png) no-repeat;
+}
+
+.letter {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+}
+
+#display {
+    margin-top: 78px;
+    height: 500px;
+    width: 220px;
+    margin-left: 60px;
+}
+
+#buttons {
+    padding-top: 6em;
+    float: left;
+}
+
+#buttons button {
+    margin-right: .6em;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border: none;
+}
+
+#clear {
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(49, 40, 28);
+    border: 2px solid rgb(49, 40, 28);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100px;
+    margin-top: 3.6em;
+}
+
+p {
+    float: left;
+    padding: .4em .7em;
+    margin-right: .4em;
+    border: 2px solid rgb(65, 56, 44);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-radius: .4em;
+    color: rgb(49, 40, 28);
+}
+
+@media (max-width: 350px) {
+    #buttons button{
+        margin-top: 1em;
+    }
+
+    #clear {
+        margin-top: 1em;
+        width: 30%;
+    }
+}
