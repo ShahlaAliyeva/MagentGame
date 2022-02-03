@@ -50,7 +50,7 @@ p {
     color: rgb(49, 40, 28);
 }
 
-@media (max-width: 350px) {
+@media (max-width:450px) {
     #buttons button{
         margin-top: 1em;
     }
